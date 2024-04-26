@@ -1,12 +1,11 @@
 function setup() {
-  createCanvas(1080, 1920);
+  createCanvas(500, 500);
   background(0);
   noStroke();
  
 }
 
 function draw() {
-  background(0);
   if (mouseIsPressed) {
   
     if (mouseX, mouseY >=50){
